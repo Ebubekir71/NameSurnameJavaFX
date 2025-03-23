@@ -10,7 +10,8 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <TextField fx:id="textField" />
+   <TextField fx:id="textFieldName" promptText="Name" />
+   <TextField fx:id="textFieldSurname" layoutX="30.0" layoutY="205.0" promptText="Surname" />
     <Button onAction="#showNameSurname" text="Show" />
 
     <Label fx:id="show" prefHeight="18.0" prefWidth="261.0" />

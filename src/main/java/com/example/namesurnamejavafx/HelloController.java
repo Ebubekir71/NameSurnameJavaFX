@@ -7,12 +7,14 @@ import javafx.scene.control.TextField;
 
 public class HelloController {
     @FXML
-    private TextField textField;
+    private TextField textFieldName;
     @FXML
     private Label show;
+    @FXML
+    private TextField textFieldSurname;
 
     public void showNameSurname(ActionEvent actionEvent) {
-        show.setText("Hello " + textField.getText());
+        show.setText("Hello " + textFieldName.getText() + " " +textFieldSurname.getText());
 
 
     }
