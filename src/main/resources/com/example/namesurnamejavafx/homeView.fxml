@@ -11,6 +11,7 @@
    </padding>
    <children>
       <Label fx:id="welcomeLabel" text="Label" />
+      <Button mnemonicParsing="false" onAction="#goToProfile" text="Profile" />
       <Button mnemonicParsing="false" onAction="#logoutButtonOnAction" text="Logout" />
    </children>
 </VBox>

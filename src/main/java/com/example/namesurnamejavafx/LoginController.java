@@ -22,7 +22,7 @@ public class LoginController {
 
         if(userNameField.getText().equals("ebubekir") && passwordField.getText().equals("1234")){
 
-            FXMLLoader loader = new FXMLLoader(Main.class.getResource("homeView.fxml"));
+            FXMLLoader loader = new FXMLLoader(Main.class.getResource("/com/example/namesurnamejavafx/homeView.fxml"));
             Parent root = loader.load();
 
             HomeController homeController = loader.getController();
